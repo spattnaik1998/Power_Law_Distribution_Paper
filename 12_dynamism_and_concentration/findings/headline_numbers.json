@@ -1,0 +1,140 @@
+{
+  "source": "Census Business Dynamics Statistics, national, via api.census.gov/data/timeseries/bds",
+  "years": [
+    1978,
+    2023
+  ],
+  "repair_note": "The first run used raw numeric codes because the Census code lists were unreachable, and included the Total and two layers of subtotals in every denominator. Partitions here are identified by arithmetic: the largest set of classes summing to the national total in every year.",
+  "partitions": {
+    "firm_size_classes": [
+      "612",
+      "620",
+      "630",
+      "640",
+      "649",
+      "658",
+      "661",
+      "671",
+      "672",
+      "680"
+    ],
+    "firm_size_gap_pct": 0.0,
+    "firm_age_classes": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100",
+      "110",
+      "150"
+    ],
+    "firm_age_gap_pct": 0.0,
+    "large_classes": [
+      "672",
+      "680"
+    ],
+    "small_classes": [
+      "612",
+      "620",
+      "630"
+    ],
+    "young_classes": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "age_series_starts": 1982,
+    "age_start_reason": "BDS begins in 1978, so age four is not fully observed until 1982 and earlier firms are left censored."
+  },
+  "dynamism": {
+    "entry": {
+      "first": 15.146,
+      "first_year": 1978,
+      "last": 10.608,
+      "last_year": 2023,
+      "change": -4.538,
+      "peak": 15.146,
+      "peak_year": 1978
+    },
+    "exit": {
+      "first": 11.137,
+      "first_year": 1978,
+      "last": 9.396,
+      "last_year": 2023,
+      "change": -1.7409999999999997,
+      "peak": 12.38,
+      "peak_year": 1982
+    }
+  },
+  "concentration": {
+    "large_firm_emp_share": {
+      "first": 30.156822509129118,
+      "first_year": 1978,
+      "last": 35.69118849654673,
+      "last_year": 2023,
+      "change": 5.534365987417612,
+      "peak": 35.75565497501158,
+      "peak_year": 2021
+    },
+    "small_firm_emp_share": {
+      "first": 22.72090716415309,
+      "first_year": 1978,
+      "last": 16.693803290737357,
+      "last_year": 2023,
+      "change": -6.027103873415733,
+      "peak": 22.72090716415309,
+      "peak_year": 1978
+    },
+    "class_hhi_first": 0.14056218417714852,
+    "class_hhi_last": 0.15723136852921238,
+    "hhi_note": "computed on grouped size classes; a bound, not the firm-level index"
+  },
+  "young_firms": {
+    "share of firms": {
+      "first": 39.205459104685666,
+      "first_year": 1982,
+      "last": 31.925101099857034,
+      "last_year": 2023,
+      "change": -7.280358004828631,
+      "peak": 40.95636029954886,
+      "peak_year": 1987
+    },
+    "share of employment": {
+      "first": 13.504277138589634,
+      "first_year": 1982,
+      "last": 8.941355647656025,
+      "last_year": 2023,
+      "change": -4.5629214909336095,
+      "peak": 15.915748421747516,
+      "peak_year": 1988
+    },
+    "share of job creation": {
+      "first": 35.28005537867019,
+      "first_year": 1982,
+      "last": 24.402691372542925,
+      "last_year": 2023,
+      "change": -10.877364006127266,
+      "peak": 37.27975144307083,
+      "peak_year": 1987
+    }
+  },
+  "shift_share": {
+    "window": [
+      1978,
+      2023
+    ],
+    "within": 6.250110976975728,
+    "between": -6.377042309839555,
+    "interaction": 5.6612973202814505,
+    "total": 5.534365987417623,
+    "industries": 19,
+    "query": "NAICS with INDLEVEL=2, excluding the all-industry code 00"
+  }
+}

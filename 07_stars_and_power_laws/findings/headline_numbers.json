@@ -1,0 +1,257 @@
+{
+  "stacklib_version": "0.7.0",
+  "acs_year": 2023,
+  "households": 131332360.0,
+  "lognormal_fit": {
+    "mu": 11.225,
+    "sigma": 0.975,
+    "implied_median": 74981.74778243311,
+    "sse": 0.007011948806060875
+  },
+  "pareto_tail": {
+    "fitted_above": 50000,
+    "alpha": 1.1985718169607198,
+    "r2": 0.9617637568536869,
+    "points": 7
+  },
+  "power_law_benchmark": {
+    "lognormal_r2_on_same_test": 0.9806047047759896,
+    "lognormal_apparent_alpha": 1.0225815082663392,
+    "real_beats_benchmark_by_r2": -0.01884094792230273
+  },
+  "tail_predictions": {
+    "$200000": {
+      "power_law": 19408811.09865518,
+      "log_normal": 20639258.622778483
+    },
+    "$300000": {
+      "power_law": 11938256.696236147,
+      "log_normal": 10178272.61394974
+    },
+    "$500000": {
+      "power_law": 6472011.107131639,
+      "log_normal": 3391852.189439121
+    },
+    "$1000000": {
+      "power_law": 2819896.607616358,
+      "log_normal": 517815.6953243614
+    },
+    "$5000000": {
+      "power_law": 409701.38960223173,
+      "log_normal": 1084.3156227658865
+    }
+  },
+  "bracket_table": [
+    {
+      "lower": 0.0,
+      "upper": 10000.0,
+      "households": 6963573.0,
+      "share": 0.05302252240041982,
+      "above_upper": 0.9469774775995802
+    },
+    {
+      "lower": 10000.0,
+      "upper": 15000.0,
+      "households": 4578695.0,
+      "share": 0.03486341827711007,
+      "above_upper": 0.9121140593224701
+    },
+    {
+      "lower": 15000.0,
+      "upper": 20000.0,
+      "households": 3911930.0,
+      "share": 0.02978648978819843,
+      "above_upper": 0.8823275695342717
+    },
+    {
+      "lower": 20000.0,
+      "upper": 25000.0,
+      "households": 4523389.0,
+      "share": 0.034442303481030875,
+      "above_upper": 0.8478852660532408
+    },
+    {
+      "lower": 25000.0,
+      "upper": 30000.0,
+      "households": 4153110.0,
+      "share": 0.031622899337223516,
+      "above_upper": 0.8162623667160174
+    },
+    {
+      "lower": 30000.0,
+      "upper": 35000.0,
+      "households": 4718247.0,
+      "share": 0.03592600483232008,
+      "above_upper": 0.7803363618836973
+    },
+    {
+      "lower": 35000.0,
+      "upper": 40000.0,
+      "households": 4483017.0,
+      "share": 0.034134900187585145,
+      "above_upper": 0.7462014616961121
+    },
+    {
+      "lower": 40000.0,
+      "upper": 45000.0,
+      "households": 4781455.0,
+      "share": 0.03640728758700445,
+      "above_upper": 0.7097941741091076
+    },
+    {
+      "lower": 45000.0,
+      "upper": 50000.0,
+      "households": 4308699.0,
+      "share": 0.03280759593446733,
+      "above_upper": 0.6769865781746403
+    },
+    {
+      "lower": 50000.0,
+      "upper": 60000.0,
+      "households": 8783865.0,
+      "share": 0.06688271649119835,
+      "above_upper": 0.6101038616834419
+    },
+    {
+      "lower": 60000.0,
+      "upper": 75000.0,
+      "households": 12347400.0,
+      "share": 0.09401643281214166,
+      "above_upper": 0.5160874288713002
+    },
+    {
+      "lower": 75000.0,
+      "upper": 100000.0,
+      "households": 16682685.0,
+      "share": 0.12702646171895488,
+      "above_upper": 0.3890609671523453
+    },
+    {
+      "lower": 100000.0,
+      "upper": 125000.0,
+      "households": 13423945.0,
+      "share": 0.10221353670945987,
+      "above_upper": 0.2868474304428854
+    },
+    {
+      "lower": 125000.0,
+      "upper": 150000.0,
+      "households": 9460569.0,
+      "share": 0.07203532320594863,
+      "above_upper": 0.21481210723693678
+    },
+    {
+      "lower": 150000.0,
+      "upper": 200000.0,
+      "households": 11941011.0,
+      "share": 0.09092207739204565,
+      "above_upper": 0.12389002984489117
+    },
+    {
+      "lower": 200000.0,
+      "upper": null,
+      "households": 16270770.0,
+      "share": 0.12389002984489124,
+      "above_upper": 0.0
+    }
+  ],
+  "quintile_shares": {
+    "2010": {
+      "Lowest fifth": 3.3,
+      "Second": 8.6,
+      "Third": 14.6,
+      "Fourth": 23.1,
+      "Highest fifth": 50.3
+    },
+    "2011": {
+      "Lowest fifth": 3.21,
+      "Second": 8.47,
+      "Third": 14.49,
+      "Fourth": 23.01,
+      "Highest fifth": 50.82
+    },
+    "2012": {
+      "Lowest fifth": 3.19,
+      "Second": 8.48,
+      "Third": 14.47,
+      "Fourth": 22.98,
+      "Highest fifth": 50.89
+    },
+    "2013": {
+      "Lowest fifth": 3.13,
+      "Second": 8.38,
+      "Third": 14.29,
+      "Fourth": 22.76,
+      "Highest fifth": 51.44
+    },
+    "2014": {
+      "Lowest fifth": 3.14,
+      "Second": 8.39,
+      "Third": 14.31,
+      "Fourth": 22.78,
+      "Highest fifth": 51.38
+    },
+    "2015": {
+      "Lowest fifth": 3.16,
+      "Second": 8.39,
+      "Third": 14.28,
+      "Fourth": 22.64,
+      "Highest fifth": 51.54
+    },
+    "2016": {
+      "Lowest fifth": 3.12,
+      "Second": 8.38,
+      "Third": 14.25,
+      "Fourth": 22.64,
+      "Highest fifth": 51.61
+    },
+    "2017": {
+      "Lowest fifth": 3.11,
+      "Second": 8.4,
+      "Third": 14.29,
+      "Fourth": 22.63,
+      "Highest fifth": 51.57
+    },
+    "2018": {
+      "Lowest fifth": 3.1,
+      "Second": 8.35,
+      "Third": 14.21,
+      "Fourth": 22.53,
+      "Highest fifth": 51.82
+    },
+    "2019": {
+      "Lowest fifth": 3.15,
+      "Second": 8.48,
+      "Third": 14.3,
+      "Fourth": 22.51,
+      "Highest fifth": 51.56
+    },
+    "2021": {
+      "Lowest fifth": 2.97,
+      "Second": 8.4,
+      "Third": 14.28,
+      "Fourth": 22.57,
+      "Highest fifth": 51.77
+    },
+    "2022": {
+      "Lowest fifth": 2.96,
+      "Second": 8.4,
+      "Third": 14.23,
+      "Fourth": 22.44,
+      "Highest fifth": 51.97
+    },
+    "2023": {
+      "Lowest fifth": 3.0,
+      "Second": 8.5,
+      "Third": 14.33,
+      "Fourth": 22.54,
+      "Highest fifth": 51.64
+    }
+  },
+  "wage_dispersion": null,
+  "top_bracket": {
+    "observed_share": 0.1238900298448912,
+    "lognormal_predicted_share": 0.15715288008818606,
+    "observed_thinner_by_pct": 21.165918324010025
+  }
+}

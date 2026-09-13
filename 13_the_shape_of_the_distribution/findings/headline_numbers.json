@@ -1,0 +1,146 @@
+{
+  "source": "Census Business Dynamics Statistics, firm counts by size class, via the cache written by Idea 12",
+  "years": [
+    1978,
+    2023
+  ],
+  "question": "Is the firm-size distribution a power law, a log-normal, or neither?",
+  "bins": {
+    "edge_source": "Census EMPSZFI_LABEL; the labels resolved and match the edges inferred from the aggregate identities exactly, so the fallback was correct in all ten classes",
+    "labels": {
+      "612": "Firms with 1 to 4 employees",
+      "620": "Firms with 5 to 9 employees",
+      "630": "Firms with 10 to 19 employees",
+      "640": "Firms with 20 to 99 employees",
+      "649": "Firms with 100 to 499 employees",
+      "658": "Firms with 500 to 999 employees",
+      "661": "Firms with 1,000 to 2,499 employees",
+      "671": "Firms with 2,500 to 4,999 employees",
+      "672": "Firms with 5,000 to 9,999 employees",
+      "680": "Firms with 10,000 employees or more"
+    },
+    "lower_edges": [
+      1.0,
+      5.0,
+      10.0,
+      20.0,
+      100.0,
+      500.0,
+      1000.0,
+      2500.0,
+      5000.0,
+      10000.0
+    ],
+    "top_bin_open_at": 10000.0,
+    "classes_with_mean_outside_bin": [
+      [
+        "672",
+        4656.230759891072,
+        5000.0,
+        10000.0
+      ]
+    ],
+    "edge_source_note": "The run recorded 'fallback' because the parser did not recognise 'or more' as an open top class. The labels themselves came back and are stored above; every edge is identical either way, so no number changes."
+  },
+  "validation": {
+    "planted_pareto_alpha": 1.06,
+    "recovered": 1.0582126370214615,
+    "planted_lognorm_sigma": 1.6,
+    "recovered_sigma": 1.603040195473594,
+    "vuong_pointed_correctly": true
+  },
+  "model_choice": {
+    "years": 46,
+    "lognormal_preferred": 46,
+    "pareto_preferred": 0,
+    "indistinguishable": 0,
+    "vuong_z": {
+      "first": -202.4911810130439,
+      "first_year": 1978,
+      "last": -251.01956040798188,
+      "last_year": 2023,
+      "change": -48.528379394937986,
+      "min": -273.4342111594488,
+      "min_year": 2004,
+      "max": -202.4911810130439,
+      "max_year": 1978
+    },
+    "note": "Vuong on non-nested models; |Z| under 1.96 means the ten bins cannot separate them."
+  },
+  "whole_distribution": {
+    "pareto_alpha": {
+      "first": 0.6927016286749792,
+      "first_year": 1978,
+      "last": 0.6681042301020436,
+      "last_year": 2023,
+      "change": -0.024597398572935636,
+      "min": 0.6472554306258991,
+      "min_year": 2001,
+      "max": 0.6927016286749792,
+      "max_year": 1978
+    },
+    "lognorm_sigma": {
+      "first": 2.002481069499237,
+      "first_year": 1978,
+      "last": 2.213972578146947,
+      "last_year": 2023,
+      "change": 0.21149150864770982,
+      "min": 1.9047790094684125,
+      "min_year": 1991,
+      "max": 2.213972578146947,
+      "max_year": 2023
+    }
+  },
+  "tail": {
+    "defined_from_employees": 500.0,
+    "alpha": {
+      "first": 0.89655564683972,
+      "first_year": 1978,
+      "last": 0.9516056552943286,
+      "last_year": 2023,
+      "change": 0.05505000845460861,
+      "min": 0.8225229326077963,
+      "min_year": 2008,
+      "max": 0.9533129481116236,
+      "max_year": 2018
+    },
+    "bootstrap_95_last_year": [
+      0.9380725239271879,
+      0.9642096837375251
+    ],
+    "axtell_2001_reference": 1.06,
+    "threshold_sweep_last_year": {
+      "1": 0.6681042301020436,
+      "5": 0.9060483894098768,
+      "10": 1.0022369122297423,
+      "20": 1.0560934351021345,
+      "100": 0.9794251543470386,
+      "500": 0.9516056552943286,
+      "1000": 0.9600972980598393,
+      "2500": 1.045308795803232
+    }
+  },
+  "top_bin": {
+    "observed_last": 1210.0,
+    "lognorm_expected_last": 57.2363148595584,
+    "pareto_expected_last": 11915.914876680145,
+    "observed_over_lognormal": {
+      "first": 91.51098481961681,
+      "first_year": 1978,
+      "last": 21.140424623230814,
+      "last_year": 2023,
+      "change": -70.370560196386,
+      "min": 21.140424623230814,
+      "min_year": 2023,
+      "max": 130.02760332668237,
+      "max_year": 1986
+    }
+  },
+  "edge_sensitivity": {
+    "alphas": {
+      "top edge x1.0 (10000)": 0.9516056552943286,
+      "top edge x2.0 (20000)": 0.9041776988835796
+    },
+    "spread": 0.04742795641074904
+  }
+}

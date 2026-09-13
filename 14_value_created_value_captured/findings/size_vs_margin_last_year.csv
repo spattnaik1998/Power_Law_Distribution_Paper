@@ -1,0 +1,84 @@
+industry,size,margin,name
+111CA,220.7,38.3692628650904,Farms
+113FF,51.3,75.77548005908419,"Forestry, fishing, and related activities"
+211,231.4,50.90189177298724,Oil and gas extraction
+212,86.7,57.001972386587774,"Mining, except oil and gas"
+213,66.1,67.72540983606558,Support activities for mining
+22,471.2,68.19102749638205,Utilities
+23,1341.3,52.91750503018109,Construction
+311FT,354.5,27.85197988686361,Food and beverage and tobacco products
+313TT,16.6,35.24416135881104,Textile mills and textile product mills
+315AL,12.3,56.682027649769594,Apparel and leather and allied products
+31G,2896.5,39.925290841925346,Manufacturing
+31ND,1340.1,37.586245582543334,Nondurable goods
+321,58.6,34.490876986462624,Wood products
+322,75.2,34.02714932126697,Paper products
+323,41.5,48.8235294117647,Printing and related support activities
+324,161.0,27.302017975241643,Petroleum and coal products
+325,577.7,56.147341821362616,Chemical products
+326,101.4,33.8903743315508,Plastics and rubber products
+327,76.3,43.47578347578347,Nonmetallic mineral products
+331,77.7,24.991958829205537,Primary metals
+332,192.9,41.2620320855615,Fabricated metal products
+333,205.1,45.75061342850769,Machinery
+334,318.0,73.28877621571792,Computer and electronic products
+335,82.5,40.82137555665512,"Electrical equipment, appliances, and components"
+3361MV,184.0,23.75112946947205,"Motor vehicles, bodies and trailers, and parts"
+3364OT,210.3,48.00273910066195,Other transportation equipment
+337,34.6,40.32634032634033,Furniture and related products
+339,116.5,63.765736179529284,Miscellaneous manufacturing
+33DG,1556.3,42.18301078766195,Durable goods
+42,1905.4,60.75505388686947,Wholesale trade
+441,371.7,64.83516483516483,Motor vehicle and parts dealers
+445,241.3,66.86062621224717,Food and beverage stores
+44RT,1921.8,65.0201305951213,Retail trade
+452,231.2,73.28050713153725,General merchandise stores
+481,185.0,54.17276720351391,Air transportation
+482,50.9,55.02702702702702,Rail transportation
+483,24.0,30.18867924528302,Water transportation
+484,262.5,48.48540820096047,Truck transportation
+485,91.3,46.22784810126582,Transit and ground passenger transportation
+486,51.2,65.80976863753214,Pipeline transportation
+487OS,226.0,61.78239475123017,Other transportation and support activities
+48TW,1023.9,54.00316455696203,Transportation and warehousing
+493,133.0,66.5,Warehousing and storage
+4A0,1077.6,63.16900169998241,Other retail
+511,479.1,66.25639607246578,"Publishing industries, except internet (includes software)"
+512,119.0,56.9377990430622,Motion picture and sound recording industries
+513,506.4,53.9067489887162,Broadcasting and telecommunications
+514,590.5,59.85201702817757,"Data processing, internet publishing, and other information services"
+521CI,1093.3,72.73634488723305,"Federal Reserve banks, credit intermediation, and related activities"
+523,466.6,44.235874099355335,"Securities, commodity contracts, and investments"
+524,842.8,52.93637334338296,Insurance carriers and related activities
+525,39.2,13.85159010600707,"Funds, trusts, and other financial vehicles"
+531,3854.2,71.13038663836855,Real estate
+532RL,384.3,54.9078439777111,Rental and leasing services and lessors of intangible assets
+5411,421.9,80.31600989910528,Legal services
+5412OP,1518.5,63.668763102725364,"Miscellaneous professional, scientific, and technical services"
+5415,553.8,71.0455420141116,Computer systems design and related services
+55,576.8,62.1551724137931,Management of companies and enterprises
+561,860.3,62.07966517534997,Administrative and support services
+562,92.1,49.33047670058918,Waste management and remediation services
+61,347.2,66.7820734756684,Educational services
+621,1153.0,66.11617638626068,Ambulatory health care services
+622,741.2,54.83465265961382,Hospitals
+623,227.4,60.656174979994674,Nursing and residential care facilities
+624,249.5,66.8184252811998,Social assistance
+711AS,211.5,61.02135025966532,"Performing arts, spectator sports, museums, and related activities"
+713,144.4,54.53172205438066,"Amusements, gambling, and recreation industries"
+721,269.5,69.94549701531274,Accommodation
+722,706.9,49.07664537628436,Food services and drinking places
+81,649.4,58.01840435986777,"Other services, except government"
+FIRE,6680.4,63.31352534758751,"Finance, insurance, real estate, rental, and leasing"
+G,3447.0,60.80973802593279,Government
+GFE,78.4,69.87522281639929,Government enterprises
+GFGD,569.7,60.93699860947696,National defense
+GFGN,459.5,71.4507852589022,Nondefense
+GSLE,168.2,31.38645269639858,Government enterprises
+GSLG,2171.2,63.07044299201161,General government
+HS,3005.3,90.38496240601505,Housing
+ORE,848.9,40.54931932171005,Other real estate
+PGOOD,4894.1,43.94648228797199,Private goods-producing industries<sup>1</sup>
+PROF,4023.4,64.99523447975058,Professional and business services
+PSERV,22421.0,61.93851729891598,Private services-producing industries<sup>2</sup>
+PVT,27315.1,57.705438213261104,Private industries

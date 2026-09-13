@@ -1,0 +1,71 @@
+{
+  "stacklib_version": "0.5.0",
+  "partial_years_dropped": true,
+  "index_base_year": 1984,
+  "gdp_per_capita_growth_pct": 101.19638272708914,
+  "median_household_growth_pct": 38.57994041708045,
+  "median_household_peak_year": 2024,
+  "median_household_peak_value": 83730.0,
+  "median_household_1999": 71980.0,
+  "median_vs_1999_ratio": 1.1632397888302306,
+  "years_above_1999": [
+    2007,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "deflator_analysis": {
+    "start_year": 1973,
+    "end_year": 2025,
+    "productivity_index": 256.4358157685911,
+    "pay_output_deflated_index": 220.43113170580656,
+    "pay_cpi_deflated_index": 164.08810691121727,
+    "headline_gap_points": 92.34770885737385,
+    "gap_surviving_deflator_points": 36.00468406278455,
+    "share_of_gap_from_deflator_pct": 61.0118274635358,
+    "implied_labour_share_decline_pct": 14.040427
+  },
+  "earnings_by_education": {
+    "Less than high school": {
+      "first_year": 2000,
+      "first": 926.3834936843633,
+      "last_year": 2024,
+      "last": 965.0,
+      "pct_change": 4.168522709968968
+    },
+    "High school, no college": {
+      "first_year": 2000,
+      "first": 920.4626552291536,
+      "last_year": 2024,
+      "last": 935.0,
+      "pct_change": 1.579351936578803
+    },
+    "Some college": {
+      "first_year": 2000,
+      "first": 1622.765185839423,
+      "last_year": 2024,
+      "last": 1691.5,
+      "pct_change": 4.235659894627446
+    },
+    "Bachelor's and higher": {
+      "first_year": 2000,
+      "first": 774.2634902966655,
+      "last_year": 2024,
+      "last": 764.25,
+      "pct_change": -1.2932923251784416
+    }
+  },
+  "mean_median_ratio": {
+    "first_year": 1984,
+    "first": 1.3853028798411122,
+    "last_year": 2024,
+    "last": 1.7257852621521557
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "resolved_series": {
+    "Airline load factor": {
+      "id": "LOADFACTOR",
+      "title": "Load Factor for U.S. Air Carrier Domestic and International, Scheduled Passenger Flights"
+    },
+    "E-commerce share of retail": {
+      "id": "ECOMPCTSA",
+      "title": "E-Commerce Retail Sales as a Percent of Total Sales"
+    },
+    "Accommodation": {
+      "id": "CES7072100001",
+      "title": "All Employees, Accommodation"
+    },
+    "All services": {
+      "id": "CUSR0000SAM2",
+      "title": "Consumer Price Index for All Urban Consumers: Medical Care Services in U.S. City Average"
+    }
+  },
+  "extrapolation": {
+    "true_optimum": 10.0,
+    "optimiser_returned": 10.000101252531314,
+    "bands": [
+      {
+        "band": "$30 to $50",
+        "implied_optimum": 25.4468,
+        "true_optimum": 10.0,
+        "ratio": 2.5447,
+        "revenue_at_implied": 1997532.8999,
+        "revenue_at_true": 3678794.4117,
+        "revenue_forgone_pct": 45.7014
+      },
+      {
+        "band": "$40 to $60",
+        "implied_optimum": 30.4468,
+        "true_optimum": 10.0,
+        "ratio": 3.0447,
+        "revenue_at_implied": 1449623.7996,
+        "revenue_at_true": 3678794.4117,
+        "revenue_forgone_pct": 60.5951
+      },
+      {
+        "band": "$50 to $70",
+        "implied_optimum": 35.4468,
+        "true_optimum": 10.0,
+        "ratio": 3.5447,
+        "revenue_at_implied": 1023631.2721,
+        "revenue_at_true": 3678794.4117,
+        "revenue_forgone_pct": 72.1748
+      }
+    ]
+  },
+  "two_sided": {
+    "params": {
+      "aA": 100.0,
+      "bA": 2.0,
+      "aB": 60.0,
+      "bB": 0.6
+    },
+    "monopoly_check": {
+      "pA": 24.666666666666657,
+      "pB": 50.0,
+      "expected_pA": 25.0,
+      "expected_pB": 50.0
+    },
+    "first_negative_g": 0.5666666666666667,
+    "curve": [
+      {
+        "g": 0.0,
+        "pA": 24.6667,
+        "pB": 50.0,
+        "profit": 2749.7778
+      },
+      {
+        "g": 0.0333,
+        "pA": 24.6667,
+        "pB": 50.6667,
+        "profit": 2862.5999
+      },
+      {
+        "g": 0.0667,
+        "pA": 24.0,
+        "pB": 52.0,
+        "profit": 2985.2143
+      },
+      {
+        "g": 0.1,
+        "pA": 23.3333,
+        "pB": 53.3333,
+        "profit": 3118.743
+      },
+      {
+        "g": 0.1333,
+        "pA": 22.0,
+        "pB": 54.6667,
+        "profit": 3264.9412
+      },
+      {
+        "g": 0.1667,
+        "pA": 21.3333,
+        "pB": 56.0,
+        "profit": 3425.6457
+      },
+      {
+        "g": 0.2,
+        "pA": 20.6667,
+        "pB": 58.0,
+        "profit": 3602.8519
+      },
+      {
+        "g": 0.2333,
+        "pA": 19.3333,
+        "pB": 60.0,
+        "profit": 3799.577
+      },
+      {
+        "g": 0.2667,
+        "pA": 18.0,
+        "pB": 62.0,
+        "profit": 4018.9665
+      },
+      {
+        "g": 0.3,
+        "pA": 17.3333,
+        "pB": 64.0,
+        "profit": 4265.4554
+      },
+      {
+        "g": 0.3333,
+        "pA": 15.3333,
+        "pB": 66.6667,
+        "profit": 4544.3333
+      },
+      {
+        "g": 0.3667,
+        "pA": 14.0,
+        "pB": 69.3333,
+        "profit": 4862.2953
+      },
+      {
+        "g": 0.4,
+        "pA": 12.0,
+        "pB": 72.6667,
+        "profit": 5228.0
+      },
+      {
+        "g": 0.4333,
+        "pA": 10.0,
+        "pB": 76.6667,
+        "profit": 5653.3516
+      },
+      {
+        "g": 0.4667,
+        "pA": 7.3333,
+        "pB": 81.3333,
+        "profit": 6154.1515
+      },
+      {
+        "g": 0.5,
+        "pA": 4.0,
+        "pB": 87.3333,
+        "profit": 6752.3556
+      },
+      {
+        "g": 0.5333,
+        "pA": 0.6667,
+        "pB": 94.0,
+        "profit": 7479.4286
+      },
+      {
+        "g": 0.5667,
+        "pA": -4.0,
+        "pB": 102.0,
+        "profit": 8382.4026
+      },
+      {
+        "g": 0.6,
+        "pA": -10.0,
+        "pB": 113.3333,
+        "profit": 9533.3333
+      },
+      {
+        "g": 0.6333,
+        "pA": -18.0,
+        "pB": 127.3333,
+        "profit": 11051.0278
+      },
+      {
+        "g": 0.6667,
+        "pA": -28.6667,
+        "pB": 146.6667,
+        "profit": 13143.4667
+      },
+      {
+        "g": 0.7,
+        "pA": -44.6667,
+        "pB": 176.0,
+        "profit": 16213.9956
+      }
+    ]
+  },
+  "load_factor": {
+    "first": 72.26666666666667,
+    "first_year": 2000,
+    "last": 81.83333333333333,
+    "last_year": 2025
+  },
+  "ecommerce_share": {
+    "first": 0.925,
+    "first_year": 2000,
+    "last": 16.35,
+    "last_year": 2025
+  },
+  "employment": {
+    "Accommodation": {
+      "peak": 2080.9166666666665,
+      "peak_year": 2019,
+      "latest": 1933.4083333333335,
+      "latest_year": 2025
+    }
+  }
+}

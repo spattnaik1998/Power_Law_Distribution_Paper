@@ -1,0 +1,139 @@
+{
+  "stacklib_version": "0.2.0",
+  "base_year": 1970,
+  "break_year_tested": 2005,
+  "loglinear_fits": [
+    {
+      "label": "Computers",
+      "start": 1959,
+      "end": 2025,
+      "n": 67,
+      "annual_pct": -13.209,
+      "r2": 0.952,
+      "halving_years": 4.893
+    },
+    {
+      "label": "Software",
+      "start": 1959,
+      "end": 2025,
+      "n": 67,
+      "annual_pct": -1.324,
+      "r2": 0.847,
+      "halving_years": 52.0
+    },
+    {
+      "label": "Info processing equip.",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": -3.081,
+      "r2": 0.832,
+      "halving_years": 22.145
+    },
+    {
+      "label": "Other info equip.",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 0.297,
+      "r2": 0.035,
+      "halving_years": 233.671
+    },
+    {
+      "label": "Industrial equipment",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 3.687,
+      "r2": 0.947,
+      "halving_years": 19.144
+    },
+    {
+      "label": "Transportation equip.",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 2.844,
+      "r2": 0.94,
+      "halving_years": 24.715
+    },
+    {
+      "label": "Nonres. structures",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 4.514,
+      "r2": 0.981,
+      "halving_years": 15.699
+    },
+    {
+      "label": "Research and dev.",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 3.168,
+      "r2": 0.963,
+      "halving_years": 22.228
+    },
+    {
+      "label": "All fixed investment",
+      "start": 1947,
+      "end": 2025,
+      "n": 79,
+      "annual_pct": 2.816,
+      "r2": 0.925,
+      "halving_years": 24.96
+    }
+  ],
+  "chow_tests": {
+    "Computers": {
+      "break": 2005,
+      "F": 353.13502914785965,
+      "n": 67,
+      "pre_annual_pct": -16.080526,
+      "post_annual_pct": -1.271486,
+      "p": 1.1102230246251565e-16
+    },
+    "Software": {
+      "break": 2005,
+      "F": 17.44761778349906,
+      "n": 67,
+      "pre_annual_pct": -0.867453,
+      "post_annual_pct": -1.81992,
+      "p": 9.337665255459981e-07
+    },
+    "Info processing equip.": {
+      "break": 2005,
+      "F": 49.641003149336115,
+      "n": 79,
+      "pre_annual_pct": -1.869213,
+      "post_annual_pct": -2.732339,
+      "p": 1.8540724511240114e-14
+    }
+  },
+  "relative_price_fall_factor": 66208.57237828225,
+  "relative_price_window": [
+    1959,
+    2025
+  ],
+  "halvings_banked": 12.93807210361697,
+  "halvings_window": [
+    1959,
+    2025
+  ],
+  "power_per_dollar_factor": 7847.797518390325,
+  "price_quantity_slope": NaN,
+  "price_quantity_r2": NaN,
+  "last_year_in_price_table": 2025,
+  "series_used": {
+    "Computers": 11,
+    "Software": 17,
+    "Info processing equip.": 10,
+    "Other info equip.": 12,
+    "Industrial equipment": 13,
+    "Transportation equip.": 14,
+    "Nonres. structures": 3,
+    "Research and dev.": 18,
+    "All fixed investment": 1
+  }
+}

@@ -1,0 +1,26 @@
+# secrets - never commit
+.env
+*.key
+credentials*
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# latex build artefacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/main.pdf
+
+# os
+.DS_Store
+Thumbs.db

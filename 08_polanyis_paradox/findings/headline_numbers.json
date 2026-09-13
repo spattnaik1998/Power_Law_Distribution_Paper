@@ -1,0 +1,279 @@
+{
+  "stacklib_version": "0.8.0",
+  "acs_group": "C24010",
+  "earnings_group": "B24011",
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021,
+    2022,
+    2023
+  ],
+  "quadrant_map": {
+    "Building and grounds cleaning and maintenance occupations": "Non-routine manual",
+    "Computer, engineering, and science occupations": "Non-routine cognitive",
+    "Construction and extraction occupations": "Routine manual",
+    "Education, legal, community service, arts, and media occupations": "Non-routine cognitive",
+    "Farming, fishing, and forestry occupations": "Routine manual",
+    "Food preparation and serving related occupations": "Non-routine manual",
+    "Healthcare practitioners and technical occupations": "Non-routine cognitive",
+    "Healthcare support occupations": "Non-routine manual",
+    "Installation, maintenance, and repair occupations": "Non-routine manual",
+    "Management, business, and financial occupations": "Non-routine cognitive",
+    "Material moving occupations": "Routine manual",
+    "Office and administrative support occupations": "Routine cognitive",
+    "Personal care and service occupations": "Non-routine manual",
+    "Production occupations": "Routine manual",
+    "Protective service occupations": "Non-routine manual",
+    "Sales and related occupations": "Routine cognitive",
+    "Transportation occupations": "Routine manual"
+  },
+  "quadrant_shares_pct": {
+    "2010": {
+      "Routine cognitive": 24.966,
+      "Routine manual": 17.77,
+      "Non-routine manual": 21.319,
+      "Non-routine cognitive": 35.945
+    },
+    "2011": {
+      "Routine cognitive": 24.535,
+      "Routine manual": 17.817,
+      "Non-routine manual": 21.672,
+      "Non-routine cognitive": 35.975
+    },
+    "2012": {
+      "Routine cognitive": 24.454,
+      "Routine manual": 17.876,
+      "Non-routine manual": 21.606,
+      "Non-routine cognitive": 36.064
+    },
+    "2013": {
+      "Routine cognitive": 24.192,
+      "Routine manual": 17.891,
+      "Non-routine manual": 21.568,
+      "Non-routine cognitive": 36.35
+    },
+    "2014": {
+      "Routine cognitive": 23.712,
+      "Routine manual": 18.059,
+      "Non-routine manual": 21.327,
+      "Non-routine cognitive": 36.902
+    },
+    "2015": {
+      "Routine cognitive": 23.59,
+      "Routine manual": 18.152,
+      "Non-routine manual": 21.141,
+      "Non-routine cognitive": 37.117
+    },
+    "2016": {
+      "Routine cognitive": 23.334,
+      "Routine manual": 17.894,
+      "Non-routine manual": 21.195,
+      "Non-routine cognitive": 37.577
+    },
+    "2017": {
+      "Routine cognitive": 22.921,
+      "Routine manual": 18.003,
+      "Non-routine manual": 20.922,
+      "Non-routine cognitive": 38.154
+    },
+    "2018": {
+      "Routine cognitive": 21.403,
+      "Routine manual": 19.18,
+      "Non-routine manual": 20.836,
+      "Non-routine cognitive": 38.581
+    },
+    "2019": {
+      "Routine cognitive": 20.38,
+      "Routine manual": 19.01,
+      "Non-routine manual": 20.759,
+      "Non-routine cognitive": 39.851
+    },
+    "2021": {
+      "Routine cognitive": 20.034,
+      "Routine manual": 18.583,
+      "Non-routine manual": 19.177,
+      "Non-routine cognitive": 42.206
+    },
+    "2022": {
+      "Routine cognitive": 19.827,
+      "Routine manual": 18.509,
+      "Non-routine manual": 19.151,
+      "Non-routine cognitive": 42.513
+    },
+    "2023": {
+      "Routine cognitive": 19.121,
+      "Routine manual": 18.27,
+      "Non-routine manual": 19.456,
+      "Non-routine cognitive": 43.152
+    }
+  },
+  "quadrant_trend_points_per_year": {
+    "early_window": [
+      2010,
+      2014
+    ],
+    "late_window": [
+      2019,
+      2023
+    ],
+    "early": {
+      "Routine cognitive": -0.3136,
+      "Routine manual": 0.0721,
+      "Non-routine manual": 0.0022,
+      "Non-routine cognitive": 0.2393
+    },
+    "late": {
+      "Routine cognitive": -0.3146,
+      "Routine manual": -0.1849,
+      "Non-routine manual": -0.3258,
+      "Non-routine cognitive": 0.8253
+    }
+  },
+  "occupation_share_change_points": {
+    "Office and administrative support occupations": -3.674,
+    "Sales and related occupations": -2.171,
+    "Personal care and service occupations": -1.07,
+    "Building and grounds cleaning and maintenance occupations": -0.696,
+    "Production occupations": -0.641,
+    "Food preparation and serving related occupations": -0.475,
+    "Installation, maintenance, and repair occupations": -0.257,
+    "Construction and extraction occupations": -0.255,
+    "Farming, fishing, and forestry occupations": -0.193,
+    "Protective service occupations": -0.144,
+    "Transportation occupations": 0.233,
+    "Education, legal, community service, arts, and media occupations": 0.443,
+    "Healthcare support occupations": 0.779,
+    "Healthcare practitioners and technical occupations": 0.938,
+    "Material moving occupations": 1.357,
+    "Computer, engineering, and science occupations": 2.218,
+    "Management, business, and financial occupations": 3.608
+  },
+  "headcount_vs_pay": {
+    "Building and grounds cleaning and maintenance occupations": {
+      "earn_change_pct": 59.018,
+      "share_change": -0.696,
+      "quadrant": "Non-routine manual"
+    },
+    "Computer, engineering, and science occupations": {
+      "earn_change_pct": 38.089,
+      "share_change": 2.218,
+      "quadrant": "Non-routine cognitive"
+    },
+    "Construction and extraction occupations": {
+      "earn_change_pct": 49.268,
+      "share_change": -0.255,
+      "quadrant": "Routine manual"
+    },
+    "Education, legal, community service, arts, and media occupations": {
+      "earn_change_pct": 28.002,
+      "share_change": 0.443,
+      "quadrant": "Non-routine cognitive"
+    },
+    "Farming, fishing, and forestry occupations": {
+      "earn_change_pct": 68.063,
+      "share_change": -0.193,
+      "quadrant": "Routine manual"
+    },
+    "Food preparation and serving related occupations": {
+      "earn_change_pct": 58.829,
+      "share_change": -0.475,
+      "quadrant": "Non-routine manual"
+    },
+    "Healthcare practitioners and technical occupations": {
+      "earn_change_pct": 38.168,
+      "share_change": 0.938,
+      "quadrant": "Non-routine cognitive"
+    },
+    "Healthcare support occupations": {
+      "earn_change_pct": 41.92,
+      "share_change": 0.779,
+      "quadrant": "Non-routine manual"
+    },
+    "Installation, maintenance, and repair occupations": {
+      "earn_change_pct": 33.817,
+      "share_change": -0.257,
+      "quadrant": "Non-routine manual"
+    },
+    "Management, business, and financial occupations": {
+      "earn_change_pct": 41.51,
+      "share_change": 3.608,
+      "quadrant": "Non-routine cognitive"
+    },
+    "Material moving occupations": {
+      "earn_change_pct": 45.029,
+      "share_change": 1.357,
+      "quadrant": "Routine manual"
+    },
+    "Office and administrative support occupations": {
+      "earn_change_pct": 44.05,
+      "share_change": -3.674,
+      "quadrant": "Routine cognitive"
+    },
+    "Personal care and service occupations": {
+      "earn_change_pct": 51.814,
+      "share_change": -1.07,
+      "quadrant": "Non-routine manual"
+    },
+    "Production occupations": {
+      "earn_change_pct": 40.566,
+      "share_change": -0.641,
+      "quadrant": "Routine manual"
+    },
+    "Protective service occupations": {
+      "earn_change_pct": 33.418,
+      "share_change": -0.144,
+      "quadrant": "Non-routine manual"
+    },
+    "Sales and related occupations": {
+      "earn_change_pct": 53.215,
+      "share_change": -2.171,
+      "quadrant": "Routine cognitive"
+    },
+    "Transportation occupations": {
+      "earn_change_pct": 44.835,
+      "share_change": 0.233,
+      "quadrant": "Routine manual"
+    }
+  },
+  "permutation_test": {
+    "real_spread": 1.1510928685949642,
+    "draws": 2000,
+    "p_value": 0.0175,
+    "null_mean": 0.6585270030172493,
+    "null_95th": 1.0571973651821789
+  },
+  "cpi_inflation_2010_2023_pct": 39.72320068599884,
+  "headcount_vs_real_pay": {
+    "correlation": -0.297066860024833,
+    "slope": -1.9053905080187974,
+    "note": "real = nominal median earnings change minus CPI inflation over the same years"
+  },
+  "real_pay_change_pct": {
+    "Building and grounds cleaning and maintenance occupations": 19.29,
+    "Computer, engineering, and science occupations": -1.63,
+    "Construction and extraction occupations": 9.54,
+    "Education, legal, community service, arts, and media occupations": -11.72,
+    "Farming, fishing, and forestry occupations": 28.34,
+    "Food preparation and serving related occupations": 19.11,
+    "Healthcare practitioners and technical occupations": -1.56,
+    "Healthcare support occupations": 2.2,
+    "Installation, maintenance, and repair occupations": -5.91,
+    "Management, business, and financial occupations": 1.79,
+    "Material moving occupations": 5.31,
+    "Office and administrative support occupations": 4.33,
+    "Personal care and service occupations": 12.09,
+    "Production occupations": 0.84,
+    "Protective service occupations": -6.31,
+    "Sales and related occupations": 13.49,
+    "Transportation occupations": 5.11
+  }
+}

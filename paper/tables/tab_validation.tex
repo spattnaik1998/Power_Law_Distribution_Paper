@@ -1,0 +1,23 @@
+\begin{table}[H]
+\caption{Estimator validation against planted answers. Each row states a quantity whose
+true value is known by construction, the value the estimator recovered, and the test the
+recovery had to pass before any result below it was computed. Samples were drawn from the
+named distribution and binned exactly as the Business Dynamics Statistics bins firms, so
+the estimator sees the same interval censoring it meets in the data. Source: authors'
+calculations.}
+\label{tab:validation}
+\begin{tabular}{lllll}
+\toprule
+Quantity & Instrument & Planted & Recovered & Test \\
+\midrule
+Pareto exponent & interval-censored MLE, 10 bins & 1.06 & 1.0582 & $|\hat\alpha-\alpha|<0.02$ \\
+Log-normal dispersion & interval-censored MLE, 10 bins & 1.60 & 1.6030 & $|\hat\sigma-\sigma|<0.06$ \\
+Model selection, Pareto draw & Vuong statistic & $Z>0$ & $Z=+4.9$ & correct sign \\
+Model selection, log-normal draw & Vuong statistic & $Z<0$ & $Z=-165.4$ & correct sign \\
+Gini, equal vector & plug-in Gini & 0.000 & 0.000 & $<10^{-9}$ \\
+Gini, degenerate vector & plug-in Gini & $\to 1$ & 0.980 & $>0.97$ \\
+Top-ten share, equal vector & fixed-count share & 20.00 & 20.00 & exact \\
+Industry hierarchy & tiling search & 14 leaves & 14 leaves & set equality \\
+\bottomrule
+\end{tabular}
+\end{table}

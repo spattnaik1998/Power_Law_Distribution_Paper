@@ -1,0 +1,228 @@
+{
+  "window": [
+    2000,
+    2025
+  ],
+  "demand": {
+    "n_categories": 355,
+    "n_aggregates_excluded": 43,
+    "slope": -0.8817909125990854,
+    "intercept": 3.848768193423476,
+    "correlation": -0.6562124808604213,
+    "slope_excluding_subtotals": -0.8376609208084231,
+    "n_excluding_subtotals": 348,
+    "bootstrap_ci": [
+      -1.047623997062209,
+      -0.664897439829027
+    ],
+    "spearman_rho": -0.5182142813795729,
+    "spearman_p": 8.688991913418667e-26,
+    "permutation_p": 0.0,
+    "permutation_draws": 2000,
+    "permuted_mean_abs_slope": 0.055345815272980756
+  },
+  "collapsed": {
+    "threshold_pct_per_year": -3.0,
+    "n": 18,
+    "n_losing_share": 11,
+    "median_quantity_growth": 9.313194736124853,
+    "median_share_change_pct": -6.7453256094231415,
+    "table": [
+      {
+        "description": "Televisions",
+        "price": -14.523,
+        "quantity": 20.817,
+        "share_2000": 23.298,
+        "share_last": 16.819,
+        "share_change_pct": -27.81
+      },
+      {
+        "description": "Telephone and related communication equipment",
+        "price": -13.32,
+        "quantity": 24.374,
+        "share_2000": 8.15,
+        "share_last": 17.232,
+        "share_change_pct": 111.443
+      },
+      {
+        "description": "Personal computers/tablets and peripheral equipment",
+        "price": -9.793,
+        "quantity": 16.248,
+        "share_2000": 46.773,
+        "share_last": 49.503,
+        "share_change_pct": 5.836
+      },
+      {
+        "description": "Calculators, typewriters, and other information processing equipment",
+        "price": -8.907,
+        "quantity": 4.279,
+        "share_2000": 2.118,
+        "share_last": 0.189,
+        "share_change_pct": -91.076
+      },
+      {
+        "description": "Information processing equipment",
+        "price": -8.051,
+        "quantity": 17.866,
+        "share_2000": 65.147,
+        "share_last": 157.043,
+        "share_change_pct": 141.06
+      },
+      {
+        "description": "Video and audio equipment",
+        "price": -7.906,
+        "quantity": 9.255,
+        "share_2000": 118.02,
+        "share_last": 44.452,
+        "share_change_pct": -62.335
+      },
+      {
+        "description": "Other video equipment",
+        "price": -7.888,
+        "quantity": 7.119,
+        "share_2000": 21.984,
+        "share_last": 5.078,
+        "share_change_pct": -76.901
+      },
+      {
+        "description": "Video, audio, photographic, and information processing equipment and media (75, 76, and part of 93)",
+        "price": -7.507,
+        "quantity": 13.473,
+        "share_2000": 188.672,
+        "share_last": 204.06,
+        "share_change_pct": 8.156
+      },
+      {
+        "description": "Over-the-counter equity securities",
+        "price": -6.339,
+        "quantity": 4.992,
+        "share_2000": 9.46,
+        "share_last": 2.013,
+        "share_change_pct": -78.723
+      },
+      {
+        "description": "Games, toys, and hobbies",
+        "price": -5.185,
+        "quantity": 10.884,
+        "share_2000": 58.494,
+        "share_last": 66.052,
+        "share_change_pct": 12.922
+      },
+      {
+        "description": "Computer software and accessories",
+        "price": -5.142,
+        "quantity": 18.954,
+        "share_2000": 16.258,
+        "share_last": 107.351,
+        "share_change_pct": 560.303
+      },
+      {
+        "description": "Photographic equipment",
+        "price": -4.472,
+        "quantity": 6.229,
+        "share_2000": 5.506,
+        "share_last": 2.565,
+        "share_change_pct": -53.414
+      },
+      {
+        "description": "Recreational goods and vehicles",
+        "price": -4.433,
+        "quantity": 9.371,
+        "share_2000": 341.145,
+        "share_last": 332.912,
+        "share_change_pct": -2.413
+      },
+      {
+        "description": "Audio equipment",
+        "price": -4.293,
+        "quantity": 6.733,
+        "share_2000": 26.231,
+        "share_last": 14.389,
+        "share_change_pct": -45.145
+      },
+      {
+        "description": "Clocks, lamps, lighting fixtures, and other household decorative items",
+        "price": -3.95,
+        "quantity": 8.593,
+        "share_2000": 32.723,
+        "share_last": 30.298,
+        "share_change_pct": -7.41
+      },
+      {
+        "description": "Cellular telephone services",
+        "price": -3.638,
+        "quantity": 10.87,
+        "share_2000": 48.159,
+        "share_last": 81.221,
+        "share_change_pct": 68.653
+      },
+      {
+        "description": "Household linens",
+        "price": -3.402,
+        "quantity": 8.039,
+        "share_2000": 35.688,
+        "share_last": 33.518,
+        "share_change_pct": -6.081
+      },
+      {
+        "description": "Dishes and flatware",
+        "price": -3.215,
+        "quantity": 5.694,
+        "share_2000": 26.327,
+        "share_last": 14.995,
+        "share_change_pct": -43.045
+      }
+    ]
+  },
+  "marked_categories": {
+    "Personal computers": {
+      "description": "Personal computers/tablets and peripheral equipment",
+      "price": -9.792997560587924,
+      "quantity": 16.247615191704234
+    },
+    "Telephone equipment": {
+      "description": "Telephone and related communication equipment",
+      "price": -13.320087502511225,
+      "quantity": 24.373690762186673
+    },
+    "Televisions": {
+      "description": "Televisions",
+      "price": -14.52279332452685,
+      "quantity": 20.81698854634977
+    },
+    "Video media": {
+      "description": "Video discs, tapes, and permanent digital downloads",
+      "price": -2.5930718442515155,
+      "quantity": 3.193584817268258
+    },
+    "Recorded music": {
+      "description": "Audio discs, tapes, vinyl, and permanent digital downloads",
+      "price": -0.5707762003314243,
+      "quantity": -6.529270219971261
+    },
+    "Newspapers, magazines": {
+      "description": "Magazines, newspapers, and stationery (part of 90)",
+      "price": 2.3171971536622316,
+      "quantity": 0.9499237815328909
+    },
+    "Rent": {
+      "description": "Rental of tenant-occupied nonfarm housing (20)",
+      "price": 3.4962626411507047,
+      "quantity": 1.4788863822012166
+    }
+  },
+  "complement_pairs": {
+    "Telephone equipment and cellular service": {
+      "price_line": "Telephone and related communication equipment",
+      "quantity_line": "Telecommunication services (71)",
+      "price_rate": -0.13320087502511224,
+      "quantity_rate": 0.03685439531169421
+    },
+    "Computers and internet access": {
+      "price_line": "Personal computers/tablets and peripheral equipment",
+      "quantity_line": "Internet access (72)",
+      "price_rate": -0.09792997560587924,
+      "quantity_rate": 0.10173351541173714
+    }
+  }
+}

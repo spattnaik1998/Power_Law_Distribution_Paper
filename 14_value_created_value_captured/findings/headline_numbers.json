@@ -1,0 +1,195 @@
+{
+  "source": "BEA GDP-by-Industry, annual, current dollars (billions)",
+  "tables_used": {
+    "value_added": "1",
+    "gross_output": "15",
+    "components": "6"
+  },
+  "years": [
+    1997,
+    2024
+  ],
+  "industries": {
+    "count": 71,
+    "reconciliation_gap_pct": 0.004342916702837485,
+    "groupings_resolved": 28,
+    "addenda_dropped": [
+      "ICT"
+    ],
+    "method": "hierarchy read by size and proved by exact tiling in every year; leaves taken by walking down from GDP, so cross-cutting addenda are excluded rather than counted twice"
+  },
+  "capture_definition": {
+    "primary": "gross operating surplus as a share of value added",
+    "secondary": "value added as a share of gross output",
+    "caveat": "surplus includes depreciation, net interest and proprietors' income, so it is an upper bound on profit; industries average over the firms inside them, so between-industry concentration is a floor on between-firm concentration, never an estimate."
+  },
+  "size_vs_capture": {
+    "year": 2024,
+    "n_industries": 71,
+    "pearson_log_size": 0.008713237701007384,
+    "spearman": -0.04678068410462776,
+    "highest": [
+      [
+        "Housing",
+        87.54
+      ],
+      [
+        "Petroleum and coal products",
+        85.23
+      ],
+      [
+        "Other real estate",
+        77.79
+      ],
+      [
+        "Rental and leasing services and lessors of intangible assets",
+        77.35
+      ],
+      [
+        "Farms",
+        76.83
+      ],
+      [
+        "Funds, trusts, and other financial vehicles",
+        72.86
+      ]
+    ],
+    "lowest": [
+      [
+        "Warehousing and storage",
+        3.98
+      ],
+      [
+        "Securities, commodity contracts, and investments",
+        5.88
+      ],
+      [
+        "Nursing and residential care facilities",
+        6.64
+      ],
+      [
+        "Management of companies and enterprises",
+        8.93
+      ],
+      [
+        "Social assistance",
+        9.62
+      ],
+      [
+        "Computer systems design and related services",
+        12.43
+      ]
+    ]
+  },
+  "concentration": {
+    "gini_value_added": {
+      "first": 0.512156339374586,
+      "first_year": 1997,
+      "last": 0.5506669638866647,
+      "last_year": 2024,
+      "change": 0.03851062451207865,
+      "min": 0.512156339374586,
+      "min_year": 1997,
+      "max": 0.5661051590215717,
+      "max_year": 2020
+    },
+    "top10_value_added": {
+      "first": 45.20506423558487,
+      "first_year": 1997,
+      "last": 48.336581553070005,
+      "last_year": 2024,
+      "change": 3.131517317485134,
+      "min": 45.20506423558487,
+      "min_year": 1997,
+      "max": 49.254045557255345,
+      "max_year": 2020
+    },
+    "gini_surplus": {
+      "first": 0.5867231629942766,
+      "first_year": 1997,
+      "last": 0.6267516957615512,
+      "last_year": 2024,
+      "change": 0.04002853276727458,
+      "min": 0.5867231629942766,
+      "min_year": 1997,
+      "max": 0.6307550479936531,
+      "max_year": 2020
+    },
+    "top10_surplus": {
+      "first": 50.96010468336324,
+      "first_year": 1997,
+      "last": 55.59941237246544,
+      "last_year": 2024,
+      "change": 4.639307689102196,
+      "min": 50.96010468336324,
+      "min_year": 1997,
+      "max": 56.89175447810394,
+      "max_year": 2020
+    }
+  },
+  "thiel_cases": {
+    "Air transportation": {
+      "capture": {
+        "first": 29.433272394881172,
+        "first_year": 1997,
+        "last": 29.99430848036426,
+        "last_year": 2024,
+        "change": 0.5610360854830887,
+        "min": -3.6538461538461533,
+        "min_year": 2002,
+        "max": 40.34907597535934,
+        "max_year": 2021
+      },
+      "margin": {
+        "first": 47.940403155127086,
+        "first_year": 1997,
+        "last": 53.35560279380503,
+        "last_year": 2024,
+        "change": 5.415199638677947,
+        "min": 40.19894675248683,
+        "min_year": 2008,
+        "max": 56.3570784490532,
+        "max_year": 2016
+      },
+      "value_added_last": 175.7,
+      "gross_output_last": 329.3
+    },
+    "Publishing industries, except internet (includes software)": {
+      "capture": {
+        "first": 45.60669456066946,
+        "first_year": 1997,
+        "last": 56.51682855206687,
+        "last_year": 2024,
+        "change": 10.910133991397409,
+        "min": 33.03411131059246,
+        "min_year": 2001,
+        "max": 56.51682855206687,
+        "max_year": 2024
+      },
+      "margin": {
+        "first": 50.10482180293501,
+        "first_year": 1997,
+        "last": 67.94045426642111,
+        "last_year": 2024,
+        "change": 17.835632463486107,
+        "min": 42.53531882397862,
+        "min_year": 2001,
+        "max": 70.6177296430004,
+        "max_year": 2021
+      },
+      "value_added_last": 442.7,
+      "gross_output_last": 651.6
+    }
+  },
+  "median_capture": {
+    "first": 34.172818063395574,
+    "first_year": 1997,
+    "last": 38.797439414723364,
+    "last_year": 2024,
+    "change": 4.624621351327789,
+    "min": 31.079323797139136,
+    "min_year": 2001,
+    "max": 40.34907597535934,
+    "max_year": 2021
+  }
+}

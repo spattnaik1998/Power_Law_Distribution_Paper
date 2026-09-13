@@ -1,0 +1,66 @@
+{
+  "stacklib_version": "0.4.0",
+  "units_note": "BEA NIPA rescaled from millions to billions",
+  "gdp_series": "GDPA",
+  "real_gdp_series": "GDPCA",
+  "population_series": "CNP16OV",
+  "capitalised_shares_pct_latest": {
+    "Software (counted from 1999)": 2.454,
+    "R&D (counted from 2013)": 2.741,
+    "Artistic originals (2013)": 0.376
+  },
+  "capitalised_total_pct_of_gdp": 5.5706731845574,
+  "capitalised_year": 2025,
+  "intangible_capital_share_pct": {
+    "year": 2024,
+    "share": 15.108142242020461,
+    "first_year": 1925,
+    "first_share": 1.5081471447584995
+  },
+  "surplus_pct_of_gdp_latest": {
+    "e = 1.5": 8.981,
+    "e = 2.0": 4.491,
+    "e = 3.0": 2.245
+  },
+  "elasticities_used": [
+    1.5,
+    2.0,
+    3.0
+  ],
+  "required_dollars_per_adult": {
+    "1995": {
+      "0.1pp": 37.166999155909785,
+      "0.2pp": 76.61618247051578,
+      "0.3pp": 116.06536578512176,
+      "0.4pp": 155.51454909972776
+    },
+    "2010": {
+      "0.1pp": 61.13138436734959,
+      "0.2pp": 126.01645023093992,
+      "0.3pp": 190.90151609453028,
+      "0.4pp": 255.7865819581206
+    },
+    "2025": {
+      "0.1pp": 108.60219322664413,
+      "0.2pp": 223.8729421777313,
+      "0.3pp": 339.14369112881843,
+      "0.4pp": 454.41444007990566
+    }
+  },
+  "compounding_start_year": 1995,
+  "compounding_end_year": 2025,
+  "measured_index_end": 151.64928984356922,
+  "adjusted_index_end": {
+    "0.3pp": 165.90839864401312,
+    "0.4pp": 170.94317466001118
+  },
+  "series_used": {
+    "All fixed investment": 1,
+    "Info processing equip.": 10,
+    "Computers": 11,
+    "Intellectual property": 16,
+    "Software": 17,
+    "Research and development": 18,
+    "Artistic originals": 19
+  }
+}

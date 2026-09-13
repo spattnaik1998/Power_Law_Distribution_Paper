@@ -1,0 +1,127 @@
+{
+  "stacklib_version": "0.6.0",
+  "postwar_norm_pct": 64.3,
+  "series_used": {
+    "labour_share": "PRS85006173",
+    "compensation": "COE",
+    "proprietors": "PROPINC",
+    "gdp": "GDP",
+    "corporate_profits": "CPATAX",
+    "international": {
+      "United States": "LABSHPUSA156NRUG",
+      "Germany": "LABSHPDEA156NRUG",
+      "Japan": "LABSHPJPA156NRUG",
+      "United Kingdom": "LABSHPGBA156NRUG"
+    }
+  },
+  "series_titles": {
+    "labour_share": "Nonfarm Business Sector: Labor Share for All Workers",
+    "compensation": "National Income: Compensation of Employees, Paid",
+    "proprietors": "Proprietors' Income with Inventory Valuation Adjustment(IVA) and Capital Consumption Adjustment (CCAdj)",
+    "gdp": "Gross Domestic Product",
+    "corporate_profits": "Corporate Profits After Tax with Inventory Valuation Adjustment (IVA) and Capital Consumption Adjustment (CCAdj)"
+  },
+  "official_labour_share_rescaled_latest": 55.796113498631556,
+  "official_decline_vs_norm_pct": 13.225328929033342,
+  "three_constructions": {
+    "Narrow (employees only)": {
+      "peak_year": 1970,
+      "peak": 58.07701965088386,
+      "latest": 51.12430682253108,
+      "fall_from_peak_pct": 11.971538605368103
+    },
+    "Broad (all proprietors' income counted)": {
+      "peak_year": 1948,
+      "peak": 66.89009911000471,
+      "latest": 57.981304835386105,
+      "fall_from_peak_pct": 13.318554454475496
+    },
+    "Proportional (Gollin adjustment)": {
+      "peak_year": 1970,
+      "peak": 62.615898654833515,
+      "latest": 54.88797411703237,
+      "fall_from_peak_pct": 12.341792905346416
+    }
+  },
+  "labour_vs_profits": {
+    "start_year": 1947,
+    "labour_start": 61.55157199873975,
+    "labour_end": 54.88797411703237,
+    "profits_start": 5.196492205011307,
+    "profits_end": 10.994995911974309
+  },
+  "international": {
+    "United States": {
+      "first_year": 1950,
+      "first": 62.836295366287196,
+      "last_year": 2023,
+      "last": 56.8302690982819,
+      "peak_year": 1970,
+      "peak": 64.898556470871,
+      "change_pct_points": -6.006026268005293,
+      "fall_from_peak_points": 8.068287372589097
+    },
+    "Germany": {
+      "first_year": 1980,
+      "first": 69.0643131732941,
+      "last_year": 2023,
+      "last": 63.735115528106704,
+      "peak_year": 1981,
+      "peak": 69.346284866333,
+      "change_pct_points": -5.329197645187392,
+      "fall_from_peak_points": 5.61116933822629
+    },
+    "Japan": {
+      "first_year": 1970,
+      "first": 50.8122503757477,
+      "last_year": 2023,
+      "last": 58.748787641525304,
+      "peak_year": 1977,
+      "peak": 62.094646692276,
+      "change_pct_points": 7.936537265777602,
+      "fall_from_peak_points": 3.345859050750697
+    },
+    "United Kingdom": {
+      "first_year": 1970,
+      "first": 61.8611693382263,
+      "last_year": 2023,
+      "last": 59.5121324062347,
+      "peak_year": 1975,
+      "peak": 64.8237645626068,
+      "change_pct_points": -2.3490369319915985,
+      "fall_from_peak_points": 5.311632156372099
+    }
+  },
+  "kn_mechanism": {
+    "slope": 2.445921780787749,
+    "r": 0.7997700524127412,
+    "n": 78,
+    "years": [
+      1947,
+      2024
+    ]
+  },
+  "idea5_implied_decline_pct": 14.0,
+  "international_padding_note": {
+    "United States": {
+      "raw_start": 1950,
+      "real_start": 1950,
+      "padded_years": 0
+    },
+    "Germany": {
+      "raw_start": 1950,
+      "real_start": 1980,
+      "padded_years": 30
+    },
+    "Japan": {
+      "raw_start": 1950,
+      "real_start": 1970,
+      "padded_years": 20
+    },
+    "United Kingdom": {
+      "raw_start": 1950,
+      "real_start": 1970,
+      "padded_years": 20
+    }
+  }
+}
